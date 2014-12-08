@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.HomePageController">
+   <center>
+      <VBox fx:id="mainVBox" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnAddCard" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addCard" prefHeight="50.0" prefWidth="200.0" text="Add card">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnAddSkill" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#addSkill" prefHeight="50.0" prefWidth="200.0" text="Add skill">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+</BorderPane>
